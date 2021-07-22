@@ -75,22 +75,27 @@ nav#gnb {
   display: none;
 }
 
-#mainMenu .subMenu li:hover {
-  background-color: #aaa;
-}
-#mainMenu .subMenu li:hover > a {
+#mainMenu .subMenu .subLi a {
   color: #fff;
 }
 
+#mainMenu .subMenu li:hover {
+  background-color: #eee;
+}
+#mainMenu .subMenu li:hover > a {
+  color: #333;
+}
+
 div#navBg {
-  width: 100%;
+  width: 1200px;
   height: 172px;
   margin: 0 auto;
-  background-color: #fff;
+  background-color: #01377f;
 
   z-index: 4;
   position: absolute;
-  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
 
   display: none;
 }

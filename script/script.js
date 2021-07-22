@@ -3,24 +3,17 @@
 $(function(){
 
     // nav메뉴 내리기
-    $("li.mainLi").mouseover(function(){
-        $("ul.subMenu .subLi").stop().slideDown(500);
+    $("li.mainLi, #navBg").mouseover(function(){
+        $("ul.subMenu .subLi").stop().slideDown(800);
+        $("#navBg").stop().slideDown(800);
     });
 
-    $("li.mainLi").mouseover(function(){
-        $("#navBg").stop().slideDown(500);
-    });
-    
     // nav메뉴 올리기
-    $("li.mainLi").mouseout(function(){
-        $("ul.subMenu .subLi").stop().slideUp(200);
+    $("li.mainLi, #navBg").mouseout(function(){
+        $("ul.subMenu .subLi").stop().slideUp(300);
+        $("#navBg").stop().slideUp(300);
     });
 
-    $("#mainMenu > li.mainLi").mouseout(function(){
-        $("#navBg").stop().slideUp(200);
-    });
-
-    
     
     
     //슬라이드쇼
