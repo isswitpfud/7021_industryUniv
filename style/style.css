@@ -70,8 +70,8 @@ nav#gnb {
 }
 
 #mainMenu .subMenu .subLi {
-  height: 42px;
-  line-height: 42px;
+  height: 40px;
+  line-height: 40px;
 
   display: none;
 }
@@ -89,7 +89,7 @@ nav#gnb {
 
 div#navBg {
   width: 1200px;
-  height: 172px;
+  height: 160px;
   margin: 0 auto;
   background-color: #01377f;
 
