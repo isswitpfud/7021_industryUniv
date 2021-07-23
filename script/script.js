@@ -17,13 +17,12 @@ $(function(){
     
     
     //슬라이드쇼
-    setInterval(fnSlideShow, 5000);
+    setInterval(fnSlideShow, 3000);
     function fnSlideShow(){
-        
         
          $("#slide").animate(
         {"margin-left":"-1200px"},
-        3000,
+        2500,
         function(){
             $("#slide a:nth-child(1)").insertAfter("#slide a:nth-child(3)");
             
